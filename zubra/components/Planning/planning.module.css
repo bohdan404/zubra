@@ -1,0 +1,13 @@
+.frame {
+    padding: 30px 60px;
+}
+
+.planning {
+    background: #3A332F;
+}
+
+@media screen and (max-width: 1024px) {
+    .frame {
+        padding: 0 0 40px;
+    }
+}

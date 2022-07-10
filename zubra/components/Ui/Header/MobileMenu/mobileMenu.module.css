@@ -1,0 +1,23 @@
+.mobileMenu {
+    position: fixed;
+    top: 80px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    background: #202020;
+}
+
+.mobileMenu {
+    display: grid;
+    align-content: flex-start;
+    text-align: center;
+    gap: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #DEDBCB;
+}
