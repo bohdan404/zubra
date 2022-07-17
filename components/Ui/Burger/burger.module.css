@@ -1,0 +1,74 @@
+.burger div {
+    width: 30px;
+    height: 2px;
+    border-radius: 4px;
+    background: #DEDBCB;
+    position: relative;
+    transition: .2s;
+}
+
+.openBurger div {
+    width: 30px;
+    height: 2px;
+    border-radius: 4px;
+    transition: .2s;
+    position: relative;
+}
+
+.wrap {
+    height: 50px;
+    width: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger div::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    top: 8px;
+    right: 0;
+    height: 2px;
+    border-radius: 4px;
+    transition: .4s;
+    background: #DEDBCB;
+}
+
+.burger div::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    bottom: 8px;
+    right: 0;
+    height: 2px;
+    border-radius: 4px;
+    background: #DEDBCB;
+    transition: .4s;
+}
+
+.openBurger div::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    top: 0;
+    right: 0;
+    height: 2px;
+    border-radius: 4px;
+    transform: rotate(45deg);
+    background: #DEDBCB;
+    transition: .4s;
+}
+
+.openBurger div::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    transform: rotate(-45deg);
+    border-radius: 4px;
+    background: #DEDBCB;
+    transition: .4s;
+}
