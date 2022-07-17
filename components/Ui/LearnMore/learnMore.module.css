@@ -1,0 +1,41 @@
+.btn {
+    background: #3A332F;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 136.9%;
+    color: #DEDBCB;
+    height: 88px;
+    text-align: center;
+    border: unset;
+    width: 357px;
+    cursor: pointer;
+}
+
+.btn:disabled {
+    opacity: 0.7;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:active {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 1024px) {
+    .btn {
+        height: 33px;
+        width: 135px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 8px;
+        line-height: 136.9%;
+        border-radius: 8px;
+        /* identical to box height, or 11px */
+    }
+}
